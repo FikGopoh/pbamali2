@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florist.co</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+        .banner img{
+            width: 100%;
+        }
+        body{
+            background-color: peachpuff;
+        }
+        .content{
+            background-color: #f3f3f3;
+        }
+        .menu{
+            position: sticky;
+            overflow: hidden;
+            background-color: burlywood;
+            width: 100%;
+            top: 0;
+        }
+        .menu a{
+            float: left;
+            display: block;
+            color: azure;
+            text-decoration: none;
+            text-align: center;
+            padding: 16px;
+        }
+        .menu a:hover{
+            background-color: #f1f1f1;
+            color: burlywood;
+        }
+        table{
+            border-spacing: 20px 20px;
+        }
+        table tr td{
+            border: #dfdfdf solid 2px;
+        }
+        tr{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        td{
+            background-color: #ffffff;
+        }
+        .content a{
+            color: black;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        input{
+            size: 10%;
+        }
+        .button1 {
+            background-color: azure; 
+            color: black; 
+            border: 2px solid #34495E;
+        }
+        .button1:hover {
+            background-color: #34495E;
+            color: snow;
+            box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 35px 0 rgba(0,0,0,0.19);
+        }
+        .button2 {
+            background-color: azure; 
+            color: black; 
+            border: 2px solid #e1f924;
+        }
+        .button2:hover {
+            background-color: #e1f924;
+            color: snow;
+            box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 35px 0 rgba(0,0,0,0.19);
+        }
+        .button3 {
+            background-color: azure; 
+            color: black; 
+            border: 2px solid #ffafee;
+        }
+        .button3:hover {
+            background-color: #ffafee;
+            color: snow;
+            box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 35px 0 rgba(0,0,0,0.19);
+        }
+        .button4 {
+            background-color: azure; 
+            color: black; 
+            border: 2px solid #5f5e5d;
+        }
+        .button4:hover {
+            background-color: #5f5e5d;
+            color: snow;
+            box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 35px 0 rgba(0,0,0,0.19);
+        }
+        .button5 {
+            background-color: azure; 
+            color: black; 
+            border: 2px solid #72b3ef;
+        }
+        .button5:hover {
+            background-color: #72b3ef;
+            color: snow;
+            box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 35px 0 rgba(0,0,0,0.19);
+        }
+        .button6 {
+            background-color: azure; 
+            color: black; 
+            border: 2px solid #a83b3b;
+        }
+        .button6:hover {
+            background-color: #a83b3b;
+            color: snow;
+            box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24),0 17px 35px 0 rgba(0,0,0,0.19);
+        }
+        .footer{
+            background-color: #efbf72;
+            height: 100%;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="florist.jpg">
+    </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="#">Help</a>
+            <a href="#">Contact Us</a>
+        </div>
+    <div class="content">
+        <center>
+        <h1>
+            Florist.co 
+        </h1>
+        <table>
+            <tr>
+                <td>
+                    <center>
+                    <img src="cheer.jpg" width="300px" height="300px"><br>
+                    <font>
+                        <b>Cheers</b> 
+                    </font><br>
+                    <a class="button1" href="#">Order</a>
+                    <input type="number" name="bil" id="bil" max="50" min="1" >
+                    </center>
+                </td>
+                <td>
+                    <center>
+                    <img src="rose-hand-bouquet.jpg" width="300px" height="300px"><br>
+                    <h2>
+                        Rose Hand
+                    </h2>
+                    <a class="button2" href="#">Order</a>
+                    <input type="number" name="bil" id="bil" max="50" min="1" >
+                    </center>
+                </td>
+                <td>
+                    <center>
+                    <img src="rosie.png" width="300px" height="300px"><br>
+                    <h2>
+                        Rosie
+                    </h2>
+                    <a class="button3" href="#">Order</a>
+                    <input type="number" name="bil" id="bil" max="50" min="1" >
+                    </center>
+                </td>
+            </tr><br>
+            <tr>
+                <td>
+                    <center>
+                    <img src="Flower-Bouquet-Classic-Simple-Bouquet.jpg" width="300px" height="300px"><br>
+                    <h2>
+                        Classic Bouquet
+                    </h2>
+                    <a class="button4" href="#">Order</a>
+                    <input type="number" name="bil" id="bil" max="50" min="1" >
+                    </center>
+                </td>
+                <td>
+                    <center>
+                    <img src="Blue-Hydrangea-Flower-Bouquet-Pink-Petals.png" width="300px" height="300px"><br>
+                    <h2>
+                        Blue Hydrangea
+                    </h2>
+                    <a class="button5" href="#">Order</a>
+                    <input type="number" name="bil" id="bil" max="50" min="1" >
+                    </center>
+                </td>
+                <td>
+                    <center>
+                    <img src="Love-You-Bouquet-1-1.png" width="300px" height="300px"><br>
+                    <h2>
+                        Love You
+                    </h2>
+                    <a class="button6" href="#">Order</a>
+                    <input type="number" name="bil" id="bil" max="50" min="1" >
+                    </center>
+                </td>
+            </tr>
+        </table>
+        </center>
+    </div>
+    <div class="footer">
+        <center>
+        <h1>
+            The best Bouquet is from US
+        </h1>
+        </center>
+    </div>
+</body>
+</html>
